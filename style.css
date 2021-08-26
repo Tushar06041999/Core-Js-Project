@@ -1,0 +1,22 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    background-color:tomato;
+    height:50px;
+    width:100%;
+}
+
+.child-containers{
+    
+    text-align:center;
+}
+.child-containers input{
+    margin-top:15px;
+    color:white;
+    background-color:rgb(245, 152, 30);
+    border-radius:24px;
+    border:none;
+}
