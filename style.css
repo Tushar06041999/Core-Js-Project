@@ -20,3 +20,44 @@ body{
     border-radius:24px;
     border:none;
 }
+
+
+/* second container start from here */
+
+
+.second-container{
+    margin:50px 240px;
+}
+
+.second-child-container{
+    height:400px;
+    width:350px;
+    border:1px solid black;
+}
+
+.second-childs{
+    margin-top:40px;
+    text-align:center;
+}
+.second-childs input{
+    height:34px;
+    width:180px;
+   
+}
+.second-childss{
+    margin-top:50px;
+    text-align:center;
+}
+
+.second-childss input{
+    border:none;
+    height:25px;
+    width:80px;
+    border-radius:24px;
+    background-color: aquamarine;
+    color:white;
+}
+.second-child-container h1{
+
+    text-align:center;
+}
