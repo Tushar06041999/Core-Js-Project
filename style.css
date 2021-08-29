@@ -27,6 +27,8 @@ body{
 
 .second-container{
     margin:50px 240px;
+    display:flex;
+    justify-content:space-around;
 }
 
 .second-child-container{

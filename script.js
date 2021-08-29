@@ -77,6 +77,39 @@ btn9.addEventListener("click",function(){
 })
 
 
+// vowel detection start from here
+
+let text3=document.getElementById("text3");
+let text4=document.getElementById("text4");
+let btn10=document.getElementById("btn10");
+let btn11=document.getElementById("btn11");
+btn10.addEventListener("click",function(){
+    if(text3.value[0]=="a" || text3.value[0]=="A"){
+        text4.value=` ${text3.value} is an Vowel`;
+    }
+    else if(text3.value[0]=="e" || text3.value[0]=="E" ){
+        text4.value=` ${text3.value} is an Vowel`;
+    }
+    else if(text3.value[0]=="i" || text3.value[0]=="I"){
+        text4.value=` ${text3.value} is an Vowel`;
+    }
+    else if(text3.value[0]=="o" || text3.value[0]=="O"){
+        text4.value=` ${text3.value} is an Vowel`;
+    }
+    else if(text3.value[0]=="u" || text3.value[0]=="U"){
+        text4.value=` ${text3.value} is an Vowel`;
+    }
+    else{
+        text4.value=` ${text3.value} is not a Vowel`;
+    }
+})
+
+btn11.addEventListener("click",function(){
+    text3.value="";
+    text4.value="";
+})
+
+
 
 
 
