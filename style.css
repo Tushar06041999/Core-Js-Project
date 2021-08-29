@@ -63,3 +63,21 @@ body{
 
     text-align:center;
 }
+
+
+/* Namota section start from here */
+
+.namota-container{
+    margin:50px 280px;
+    display:flex;
+    justify-content: center;
+}
+
+.child-namota-container{
+    height:400px;
+    width:350px;
+    border:1px solid black;
+}
+.child-namota-container h1{
+    text-align:center;
+}

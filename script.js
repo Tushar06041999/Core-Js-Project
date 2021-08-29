@@ -109,6 +109,30 @@ btn11.addEventListener("click",function(){
     text4.value="";
 })
 
+// Namoto section start from here
+
+let text5=document.getElementById("text5");
+let text6=document.getElementById("text6");
+let btn12=document.getElementById("btn12");
+let btn13=document.getElementById("btn13");
+btn12.addEventListener("click",function(){
+    
+        for (let i = 1; i <=10; i++) {
+            let total=text5.value;
+            let result=total*i;
+      
+            text6.value=result;
+            console.log(result);
+        
+        }
+     
+        
+    
+})
+btn13.addEventListener("click",function(){
+    text5.value="";
+    text6.value="";
+})
 
 
 
